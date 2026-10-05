@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RailOne</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-100">
+    <header class="bg-blue-700 text-white p-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row 
+                    justify-between items-center gap-3">
+            <h1 class="text-2xl font-bold">
+                RailOne</h1>
+            <nav class="flex flex-col md:flex-row gap-4 text-center">
+                <a href="">Home</a>
+                <a href="">Trains</a>
+                <a href="">Tickets</a>
+                <a href="">Login</a>
+            </nav>
+        </div>
+    </header>
+    <main class="max-w-6xl mx-auto p-4">
+        <div class="bg-white p-6 rounded-lg shadow">
+            <h2 class="text-2xl font-bold mb-5 text-center">Search Train</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <input type="text" placeholder="From" class="border p-3 rounded w-full">
+                <input type="text" placeholder="To" class="border p-3 rounded w-full">
+                <input type="date" class="border p-3 rounded w-full">
+                <button class="bg-blue-600 text-white p-3 rounded w-full">Search</button>
+            </div>
+        </div>
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="bg-white p-5 rounded shadow text-center">
+                    <h3 class="font-bold text-xl">Train Tickets</h3>
+                    <p class="mt-2 text-gray-600">
+                        Book your train tickets
+                    </p>
+                </div>
+                <div class="bg-white p-5 rounded shadow text-center">
+                    <h3 class="font-bold text-xl">PNR Status</h3>
+                    <p class="mt-2 text-gray-600">
+                        Check your PNR status
+                    </p>
+                </div>
+                <div class="bg-white p-5 rounded shadow text-center">
+                    <h3 class="font-bold text-xl">Train Status</h3>
+                    <p class="mt-2 text-gray-600">
+                        Check live train status
+                    </p>
+                </div>
+                <div class="bg-white p-5 rounded shadow text-center">
+                    <h3 class="font-bold text-xl">Food</h3>
+                    <p class="mt-2 text-gray-600">
+                        Order food during your journey
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
